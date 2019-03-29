@@ -1,7 +1,7 @@
 function findMax() {
-    let numberOne = document.getElementById("numberOne").value;
-    let numberTwo = document.getElementById("numberTwo").value;
-    let numberThree = document.getElementById("numberThree").value;
+    let numberOne = Number(document.getElementById("numberOne").value);
+    let numberTwo = Number(document.getElementById("numberTwo").value);
+    let numberThree = Number(document.getElementById("numberThree").value);
     if (numberOne>numberTwo &&numberOne>numberThree) {
         max = numberOne;
     } else if (numberTwo>numberOne&&numberTwo>numberThree) {
