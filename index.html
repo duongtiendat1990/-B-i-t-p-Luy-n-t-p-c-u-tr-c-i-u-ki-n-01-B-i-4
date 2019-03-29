@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Find Max</legend>
+        <table>
+            <tr>
+                <th style="font-weight: bold;">Input Number One</th>
+                <th style="font-weight: bold">Input Number Two</th>
+                <th style="font-weight: bold">Input Number Three</th>
+            </tr>
+            <tr>
+                <td><input type="number" id="numberOne" onkeydown="listen();"></td>
+                <td><input type="number" id="numberTwo" onkeydown="listen();"></td>
+                <td><input type="number" id="numberThree" onkeydown="listen();"></td>
+                <td>
+                    <button type="button" onclick="findMax();">Find</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>Max is: <span id="result"></span></p>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <script src="script.js"></script>
+</form>
+</body>
+</html>
